@@ -5,7 +5,14 @@
 }
 
 body {
-  background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+  background-image: linear-gradient(
+    to right top,
+    #051937,
+    #004d7a,
+    #008793,
+    #00bf72,
+    #a8eb12
+  );
   color: #fff;
   font-family: "Roboto Mono", sans-serif;
   display: flex;
@@ -20,6 +27,13 @@ a {
   color: #fff;
 }
 
+
+.container{
+  display: flex;
+  flex-direction: row;
+}
+
+
 .counter-container {
   display: flex;
   flex-direction: column;
@@ -33,22 +47,21 @@ a {
   margin-top: 10px;
 }
 
-.marca{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.marca {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.marca-texto{
-    font-size: 20px;
-    background-color: goldenrod;
-    border-radius: 5px;
-    padding: 30px;
+.marca-texto {
+  font-size: 20px;
+  background-color: goldenrod;
+  border-radius: 5px;
+  padding: 30px;
 }
 
-@media (max-width: 280px) {
+@media (max-width: 1150px) {
   .container {
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr;
+ display: block;
   }
 }
