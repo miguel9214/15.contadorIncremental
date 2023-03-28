@@ -16,10 +16,6 @@ body {
   margin: 0;
 }
 
-/* .container {
-
-} */
-
 a {
   color: #fff;
 }
@@ -35,6 +31,19 @@ a {
 .counter {
   font-size: 60px;
   margin-top: 10px;
+}
+
+.marca{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.marca-texto{
+    font-size: 20px;
+    background-color: goldenrod;
+    border-radius: 5px;
+    padding: 30px;
 }
 
 @media (max-width: 280px) {
